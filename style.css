@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+    background-color: #2d2d2d;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+strong {
+    font-size: 700;
+    color: #ffff;
+}
+
+p {
+    font-size: 400;
+    color: #ffff;
+}
+
+.text-produto p {
+    gap: 10px;
+
+}
+
+.persona img {
+    height: 200px;
+    width: 200px;
+    border-radius: 70%;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    max-width: 400px;
+}
+
+.produto {
+    max-width: 400px;
+}
+
+.produto p img {
+    max-width: 400px;
+}
+
+.divisao {
+    height: 80vh;
+    border: 2px solid white;
+    margin-right: 50px;
+}
